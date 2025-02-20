@@ -4,10 +4,27 @@ POST {{baseUrl}}/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Matheus",
-    "email": "zago1@gmail.com"
+    "name": "user indicate3",
+    "email": "indicate3@gmail.com",
+    "referrerId": "0ac976b6-6cb8-48e2-a27f-1c37ee467626"
 }
 
 ###
 
-GET {{baseUrl}}/invites/matheus1234
+GET {{baseUrl}}/invites/f17913b8-bc28-4265-be52-6d749085e2e1
+
+###
+
+GET {{baseUrl}}/subscribers/f17913b8-bc28-4265-be52-6d749085e2e1/ranking/clicks
+
+###
+
+GET {{baseUrl}}/subscribers/f17913b8-bc28-4265-be52-6d749085e2e1/ranking/count
+
+###
+
+GET {{baseUrl}}/subscribers/f17913b8-bc28-4265-be52-6d749085e2e1/ranking/position
+
+###
+
+GET {{baseUrl}}/ranking
